@@ -1,9 +1,13 @@
 import React from "react";
 
-export const NavBar = () => {
+export const Navbar = () => {
   return (
-    <div>
-      <Navbar></Navbar>
-    </div>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>Profile</li>
+        <li>Feed</li>
+      </ul>
+    </nav>
   );
 };
