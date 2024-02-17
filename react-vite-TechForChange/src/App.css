@@ -6,6 +6,13 @@
 } */
 
 
+.App {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+
 /* @keyframes logo-spin {
   from {
     transform: rotate(0deg);
