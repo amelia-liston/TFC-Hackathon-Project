@@ -1,14 +1,19 @@
 import { useState } from "react";
 import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
       <body>
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="index.html">More Info</a>
-        </nav>
+        <Router>
+          <navbar />
+          <Switch>
+            <Route path="/pages/Profile" exact component={Profile} />
+            <Route path="/pages/Feed" component={Feed} />
+            <Route path="/pages/More" component={More Info} />
+          </Switch>
+        </Router>
         <h1>Get Civic</h1>
       </body>
     </>
