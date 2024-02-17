@@ -12,6 +12,10 @@
   width: 100%;
 }
 
+p {
+  font-size: 20px;
+}
+
 
 /* @keyframes logo-spin {
   from {
