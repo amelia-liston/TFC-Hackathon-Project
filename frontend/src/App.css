@@ -91,12 +91,102 @@ h2 {
   text-align: left;
   margin: auto;
   padding: 10px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .examples h2 {
   text-align: left;
 }
 
+.examples p {
+  color: #457B9D;
+  font-family: "Kumbh Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 9px */
+  letter-spacing: -0.32px;
+}
+
+.examples .icon {
+  background-color:#457B9D;
+  padding: 10px;
+  margin: 5px;
+  width: auto;
+  height: auto;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  border-radius: 15px;
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  font-family: "Kumbh Sans";
+
+}
+
+/*Home page styling*/
+.home-text {
+  color: #457B9D;
+  text-align: center;
+  font-family: "Kumbh Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 20px */
+  letter-spacing: 0.32px;
+}
+
+.survey {
+  font-size: 30px;
+  text-align: center;
+  color: #E63946;
+}
+
+/*feed page styling*/
+.feed-title{
+  background-color: #1D3557;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.examples-feed{
+    width: 90%;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(69, 123, 157, 0.20);;
+    text-align: left;
+    margin: auto;
+    padding: 10px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.examples-feed .icon {
+  background-color:#457B9D;
+  padding: 10px;
+  margin: 5px;
+  width: auto;
+  height: auto;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  border-radius: 15px;
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  font-family: "Kumbh Sans";
+}
+
+.examples-feed h2 {
+  text-align: left;
+}
 
 
 
