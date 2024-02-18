@@ -17,6 +17,16 @@ p {
 }
 
 /*Profile Page styling*/
+h1 {
+  text-align: center;
+  color:#1D3557;
+}
+
+h2 {
+  text-align: center;
+  color:#1D3557;
+}
+
 .profile-h2 {
   color: #1D3557;
   font-family: "Kumbh Sans";
@@ -29,12 +39,62 @@ p {
 
 
 .profile-img img{
-  width: 70%;
+  width: 90%;
   height: auto;
   flex-shrink: 0;
   margin: auto;
   display: block;
   border-radius: 25px;
+}
+
+.style-btns {
+  justify-content: space-between;
+  margin: auto;
+  text-align: center;
+
+}
+
+.style-btns button {
+  color: white;
+  background-color: #457B9D;
+  padding: 10px;
+  align-items: center;
+  font-family: "Kumbh Sans";
+  border-color: #1D3557;
+  border-radius: 10px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.style-btns button:not(.active):hover {
+  background-color: #1D3557;
+}
+
+.examples-outer {
+  width: 80%;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(166, 198, 218, 0.50);
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.examples {
+  width: 90%;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: white;
+  text-align: left;
+  margin: auto;
+  padding: 10px;
+}
+
+.examples h2 {
+  text-align: left;
 }
 
 
@@ -85,9 +145,6 @@ nav a {
   margin: 10px;
 } */
 
-h1 {
-  text-align: center;
-}
 
 
 /* .nav-right {
