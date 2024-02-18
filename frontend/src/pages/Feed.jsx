@@ -45,6 +45,21 @@ export const Feed = () => {
         <div className="icon">transportation</div>
         <div className="icon">DEI</div>
       </div>
+      <div className="feed-survey">
+        <h2>Want new results, or have a change in interests?</h2>
+        <a
+          href="https://drexel.qualtrics.com/jfe/form/SV_0jgAhKqxJ5gOnXw"
+          className="survey"
+        >
+          {" "}
+          Retake our sorting quiz here!{" "}
+        </a>
+      </div>
+      <footer>
+        This website was developed by Amelia Liston, and the hackathon project
+        was developed along with Catherine Liu, Cindy Frempong, Chloe Mshana,
+        and Stella Zhai{" "}
+      </footer>
     </div>
   );
 };

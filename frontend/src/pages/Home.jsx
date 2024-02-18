@@ -15,13 +15,27 @@ export const Home = () => {
         strengths, support your community, and get civic! to find your best fits
         for civic opportunities in your local area!
       </h2>
-      <a
-        href="https://drexel.qualtrics.com/jfe/form/SV_0jgAhKqxJ5gOnXw"
-        className="survey"
-      >
-        {" "}
-        Take the survey here!{" "}
-      </a>
+      <div className="home-survey">
+        <a
+          href="https://drexel.qualtrics.com/jfe/form/SV_0jgAhKqxJ5gOnXw"
+          className="survey"
+        >
+          {" "}
+          Take the survey here!{" "}
+        </a>
+      </div>
+      <div className="home-images">
+        <img src="https://www.bu.edu/files/2021/05/social-spark.jpg"></img>
+        <img src="public/greater-boston-food-bank-img.png"></img>
+        <img src="public/volunteer-img.png"></img>
+        <img src="https://i0.wp.com/techfc.org/wp-content/uploads/2022/12/cropped-techforchange-logo.png?fit=1438%2C426&ssl=1"></img>
+      </div>
+
+      <footer>
+        This website was developed by Amelia Liston, and the hackathon project
+        was developed along with Catherine Liu, Cindy Frempong, Chloe Mshana,
+        and Stella Zhai{" "}
+      </footer>
     </div>
   );
 };

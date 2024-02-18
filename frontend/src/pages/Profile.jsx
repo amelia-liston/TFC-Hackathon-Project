@@ -82,6 +82,11 @@ export const Profile = () => {
           <div className="icon">DEI</div>
         </div>
       </div>
+      <footer>
+        This website was developed by Amelia Liston, and the hackathon project
+        was developed along with Catherine Liu, Cindy Frempong, Chloe Mshana,
+        and Stella Zhai{" "}
+      </footer>
     </div>
   );
 };

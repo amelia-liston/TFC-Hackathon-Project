@@ -145,6 +145,20 @@ h2 {
   color: #E63946;
 }
 
+.home-survey {
+  text-align: center;
+}
+
+.home-images img{
+  width: 30%;
+  height: auto;
+  flex-wrap: wrap;
+  margin: auto;
+  display: flex;
+  border-radius: 25px;
+  padding: 20px;
+}
+
 /*feed page styling*/
 .feed-title{
   background-color: #1D3557;
@@ -186,6 +200,22 @@ h2 {
 
 .examples-feed h2 {
   text-align: left;
+}
+
+.feed-survey {
+  text-align: center;
+
+}
+
+footer {
+  padding: 10px;
+  height: 30px;
+  width: 98%;
+  background-color: #457B9D;
+  text-align: center;
+  margin-top: 20px;
+  color: #1D3557;
+  vertical-align: center;
 }
 
 
