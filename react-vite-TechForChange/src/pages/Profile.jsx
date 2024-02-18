@@ -1,16 +1,23 @@
-import React from "react";
-import { Link } from "react-router-dom";
+// import React from "react";
+// import { Link } from "react-router-dom";
 import items from "./allData";
 import { useState } from "react";
-import Menu from "./components/Menu";
-import Button from "./components/Button";
+import Menu from "../components/Menu";
+import Button from "../components/Button";
+import { Navbar } from "../components/Navbar";
 
 export const Profile = () => {
   const [menuItem, setMenuItem] = useState(items);
-  const [buttons, setButtons] = useState([]);
+  const [button, setButton] = useState([]);
+
+  const filter = ({ button }) => {
+    const filteredData = menuItem.filter((item) => item.category === button);
+    setMenuItem(filteredData);
+  };
 
   return (
     <div>
+      <Navbar />
       <h1>Hello, Bella!</h1>
       <h2 className="profile-h2">Nearby Organizations</h2>
       <div className="profile-img">
@@ -22,7 +29,7 @@ export const Profile = () => {
           Sort by Category <span>Filter</span>
         </h2>
       </div>
-      <Button />
+      <Button filter={filter} />
       <Menu menuItem={menuItem} />
     </div>
   );
