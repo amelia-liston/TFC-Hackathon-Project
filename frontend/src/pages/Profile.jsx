@@ -4,7 +4,7 @@ import items from "./allData";
 import { useState } from "react";
 import Menu from "../components/Menu";
 import Button from "../components/Button";
-import { Navbar } from "../components/Navbar";
+import { Navbar } from "../components/navbar";
 
 export const Profile = () => {
   const [menuItem, setMenuItem] = useState(items);
