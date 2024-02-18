@@ -6,6 +6,9 @@ export const Home = () => {
   return (
     <div>
       <Navbar />
+      <div className="home-logo">
+        <img src="public/logo.png" className="logo"></img>
+      </div>
       <h1>Welcome to Get Civic!</h1>
       <h2 className="home-text">
         Your community needs you. Whether it's through the arts or political
@@ -24,6 +27,9 @@ export const Home = () => {
           Take the survey here!{" "}
         </a>
       </div>
+      <h2>
+        Take a Look at some nearby organizations you can get involved with!
+      </h2>
       <div className="home-images">
         <img src="https://www.bu.edu/files/2021/05/social-spark.jpg"></img>
         <img src="public/greater-boston-food-bank-img.png"></img>
